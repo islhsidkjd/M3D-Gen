@@ -35,24 +35,7 @@ src/
 ├── extract_normal.py       # Normal data extraction
 ├── merge_and_split.py      # Dataset merging and splitting
 ├── gen_multi_data.py       # Multi-category generation
-├── gen_0427.py             # Generation variant (dated)
-├── test.py                 # Unit tests
-├── test_output.json        # Test output samples
-├── system_prompt.txt       # System prompt templates
-├── all_text_prompt.json    # Text-only prompts (legacy)
-├── prompt_0427.json        # Prompt configuration (dated)
 ├── convert_to_sharegpt.py  # Format conversion tool
-├── logs_execution/         # Generation logs directory
-├── audit_results_final/    # Audit results output
-├── swanlog/                # SwanLab experiment logs
-└── Documentation Files:
-    ├── README.md                  # This file
-    ├── QUICK_REFERENCE.md         # Quick command reference
-    ├── IMPROVEMENTS.md            # Detailed improvement analysis
-    ├── CHANGE_SUMMARY.md          # Before/after comparison
-    ├── IMPLEMENTATION_SUMMARY.md  # Implementation details
-    ├── DETAILED_CHANGES.md        # Line-by-line change log
-    └── 计划说明.md                  # Chinese implementation notes
 ```
 
 ## Main Script: `gen_dataset.py`
